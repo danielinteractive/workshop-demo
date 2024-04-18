@@ -23,8 +23,8 @@
 #' @export
 #'
 getSimulatedTwoArmMeans <- function(
-        n1,
-        n2,
+        num1,
+        num2,
         mean1,
         mean2,
         sd1,
@@ -114,6 +114,6 @@ plot.SimulationResult <- function(
         xlab = "Group",
         ylab = "Simulated Values") {
 
-    # TODO implement the plot function
-  stop("not implemented yet")
+  ggplot2::ggplot(x$data) +
+    geom_points()
 }
