@@ -73,7 +73,6 @@ getSimulatedTwoArmMeans <- function(
 #' print(x)
 #'
 #' @export
-#'
 print.SimulationResult <- function(x, ...) {
     # TODO optimize the output format
     print(class(x))
