@@ -1,4 +1,8 @@
-url: ~
+url: https://danielinteractive.github.io/workshop-demo/
 template:
   bootstrap: 5
 
+reference:
+  - title: Functions
+    contents:
+      - getSimulatedTwoArmMeans
